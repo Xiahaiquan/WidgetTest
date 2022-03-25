@@ -21,13 +21,13 @@
 		5F35A29A27EDB71800598CB9 /* LargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29327EDB71800598CB9 /* LargeView.swift */; };
 		5F35A29B27EDB71800598CB9 /* LargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29327EDB71800598CB9 /* LargeView.swift */; };
 		5F35A29C27EDB71800598CB9 /* SmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29527EDB71800598CB9 /* SmallView.swift */; };
-		5F35A29D27EDB71800598CB9 /* SmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29527EDB71800598CB9 /* SmallView.swift */; };
 		5F35A29E27EDB71800598CB9 /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29627EDB71800598CB9 /* PowerView.swift */; };
 		5F35A29F27EDB71800598CB9 /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29627EDB71800598CB9 /* PowerView.swift */; };
 		5F35A2A027EDB71800598CB9 /* PowerLevelShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29727EDB71800598CB9 /* PowerLevelShape.swift */; };
 		5F35A2A127EDB71800598CB9 /* PowerLevelShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29727EDB71800598CB9 /* PowerLevelShape.swift */; };
 		5F35A2A227EDB71800598CB9 /* MediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29927EDB71800598CB9 /* MediumView.swift */; };
 		5F35A2A327EDB71800598CB9 /* MediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29927EDB71800598CB9 /* MediumView.swift */; };
+		5F35A2A827EDBF9E00598CB9 /* SmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29527EDB71800598CB9 /* SmallView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -300,10 +300,10 @@
 				5F35A2A127EDB71800598CB9 /* PowerLevelShape.swift in Sources */,
 				5F35A28927EDB6D600598CB9 /* Test.intentdefinition in Sources */,
 				5F35A28427EDB6D500598CB9 /* Test.swift in Sources */,
-				5F35A29D27EDB71800598CB9 /* SmallView.swift in Sources */,
 				5F35A2A327EDB71800598CB9 /* MediumView.swift in Sources */,
 				5F35A29B27EDB71800598CB9 /* LargeView.swift in Sources */,
 				5F35A29F27EDB71800598CB9 /* PowerView.swift in Sources */,
+				5F35A2A827EDBF9E00598CB9 /* SmallView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

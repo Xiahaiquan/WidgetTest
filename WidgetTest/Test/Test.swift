@@ -18,6 +18,7 @@ struct Provider: IntentTimelineProvider {
         let entry = SimpleEntry(date: Date(), configuration: configuration)
         completion(entry)
     }
+    //TimelineProviderContext.displaySize
 
     func getTimeline(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
         var entries: [SimpleEntry] = []
@@ -65,9 +66,14 @@ struct Test: Widget {
     var body: some WidgetConfiguration {
         IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
             TestEntryView(entry: entry)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color.blue)
+                
         }
         .configurationDisplayName("My Widget")
         .description("This is an example widget.")
+        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
+        
     }
 }
 
