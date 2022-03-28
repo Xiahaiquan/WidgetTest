@@ -52,7 +52,7 @@ struct TestEntryView : View {
     var body: some View {
         switch family {
         case .systemSmall: SmallView(model: .live)
-        case .systemMedium: MediumView()
+        case .systemMedium: MediumView(model: .live)
         case .systemLarge: LargeView()
         default: Text("No more to show")
         }

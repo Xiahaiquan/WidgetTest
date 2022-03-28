@@ -20,8 +20,6 @@
 		5F35A28D27EDB6D600598CB9 /* TestExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5F35A27C27EDB6D500598CB9 /* TestExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5F35A29A27EDB71800598CB9 /* LargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29327EDB71800598CB9 /* LargeView.swift */; };
 		5F35A29B27EDB71800598CB9 /* LargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29327EDB71800598CB9 /* LargeView.swift */; };
-		5F35A2A227EDB71800598CB9 /* MediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29927EDB71800598CB9 /* MediumView.swift */; };
-		5F35A2A327EDB71800598CB9 /* MediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29927EDB71800598CB9 /* MediumView.swift */; };
 		5F98BD3C27F155A30027DE0E /* WidgetColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD3B27F155A30027DE0E /* WidgetColor.swift */; };
 		5F98BD3D27F155A30027DE0E /* WidgetColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD3B27F155A30027DE0E /* WidgetColor.swift */; };
 		5F98BD4627F187220027DE0E /* SmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD4227F187220027DE0E /* SmallView.swift */; };
@@ -30,6 +28,13 @@
 		5F98BD4927F187220027DE0E /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD4327F187220027DE0E /* PowerView.swift */; };
 		5F98BD4A27F187220027DE0E /* DevicePowerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD4527F187220027DE0E /* DevicePowerModel.swift */; };
 		5F98BD4B27F187220027DE0E /* DevicePowerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD4527F187220027DE0E /* DevicePowerModel.swift */; };
+		5F98BD5227F18DAF0027DE0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F35A26E27EDB65600598CB9 /* Assets.xcassets */; };
+		5F98BD5727F18E820027DE0E /* MediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD5427F18E820027DE0E /* MediumView.swift */; };
+		5F98BD5827F18E820027DE0E /* MediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD5427F18E820027DE0E /* MediumView.swift */; };
+		5F98BD5927F18E820027DE0E /* MediumMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD5527F18E820027DE0E /* MediumMainView.swift */; };
+		5F98BD5A27F18E820027DE0E /* MediumMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD5527F18E820027DE0E /* MediumMainView.swift */; };
+		5F98BD5C27F18EAF0027DE0E /* DeviceInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD5B27F18EAF0027DE0E /* DeviceInfoModel.swift */; };
+		5F98BD5D27F18EAF0027DE0E /* DeviceInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD5B27F18EAF0027DE0E /* DeviceInfoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,11 +75,13 @@
 		5F35A28627EDB6D600598CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F35A28827EDB6D600598CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F35A29327EDB71800598CB9 /* LargeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeView.swift; sourceTree = "<group>"; };
-		5F35A29927EDB71800598CB9 /* MediumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumView.swift; sourceTree = "<group>"; };
 		5F98BD3B27F155A30027DE0E /* WidgetColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetColor.swift; sourceTree = "<group>"; };
 		5F98BD4227F187220027DE0E /* SmallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallView.swift; sourceTree = "<group>"; };
 		5F98BD4327F187220027DE0E /* PowerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
 		5F98BD4527F187220027DE0E /* DevicePowerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicePowerModel.swift; sourceTree = "<group>"; };
+		5F98BD5427F18E820027DE0E /* MediumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumView.swift; sourceTree = "<group>"; };
+		5F98BD5527F18E820027DE0E /* MediumMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumMainView.swift; sourceTree = "<group>"; };
+		5F98BD5B27F18EAF0027DE0E /* DeviceInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +177,7 @@
 		5F35A29427EDB71800598CB9 /* Small */ = {
 			isa = PBXGroup;
 			children = (
+				5F98BD4227F187220027DE0E /* SmallView.swift */,
 				5F98BD4427F187220027DE0E /* Data */,
 				5F98BD4127F187220027DE0E /* View */,
 			);
@@ -179,7 +187,8 @@
 		5F35A29827EDB71800598CB9 /* Medium */ = {
 			isa = PBXGroup;
 			children = (
-				5F35A29927EDB71800598CB9 /* MediumView.swift */,
+				5F98BD5627F18E820027DE0E /* Data */,
+				5F98BD5327F18E820027DE0E /* View */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -187,7 +196,6 @@
 		5F98BD4127F187220027DE0E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5F98BD4227F187220027DE0E /* SmallView.swift */,
 				5F98BD4327F187220027DE0E /* PowerView.swift */,
 			);
 			path = View;
@@ -197,6 +205,23 @@
 			isa = PBXGroup;
 			children = (
 				5F98BD4527F187220027DE0E /* DevicePowerModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5F98BD5327F18E820027DE0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F98BD5427F18E820027DE0E /* MediumView.swift */,
+				5F98BD5527F18E820027DE0E /* MediumMainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F98BD5627F18E820027DE0E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5F98BD5B27F18EAF0027DE0E /* DeviceInfoModel.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -291,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F98BD5227F18DAF0027DE0E /* Assets.xcassets in Resources */,
 				5F35A28727EDB6D600598CB9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +329,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F35A29A27EDB71800598CB9 /* LargeView.swift in Sources */,
+				5F98BD5727F18E820027DE0E /* MediumView.swift in Sources */,
 				5F35A26D27EDB65400598CB9 /* ContentView.swift in Sources */,
 				5F98BD4827F187220027DE0E /* PowerView.swift in Sources */,
+				5F98BD5C27F18EAF0027DE0E /* DeviceInfoModel.swift in Sources */,
 				5F98BD3C27F155A30027DE0E /* WidgetColor.swift in Sources */,
 				5F35A26B27EDB65400598CB9 /* WidgetTestApp.swift in Sources */,
 				5F35A28A27EDB6D600598CB9 /* Test.intentdefinition in Sources */,
 				5F98BD4A27F187220027DE0E /* DevicePowerModel.swift in Sources */,
-				5F35A2A227EDB71800598CB9 /* MediumView.swift in Sources */,
 				5F98BD4627F187220027DE0E /* SmallView.swift in Sources */,
+				5F98BD5927F18E820027DE0E /* MediumMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,13 +347,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F35A28927EDB6D600598CB9 /* Test.intentdefinition in Sources */,
+				5F98BD5A27F18E820027DE0E /* MediumMainView.swift in Sources */,
 				5F35A28427EDB6D500598CB9 /* Test.swift in Sources */,
-				5F35A2A327EDB71800598CB9 /* MediumView.swift in Sources */,
 				5F35A29B27EDB71800598CB9 /* LargeView.swift in Sources */,
 				5F98BD4927F187220027DE0E /* PowerView.swift in Sources */,
+				5F98BD5D27F18EAF0027DE0E /* DeviceInfoModel.swift in Sources */,
 				5F98BD4727F187220027DE0E /* SmallView.swift in Sources */,
 				5F98BD3D27F155A30027DE0E /* WidgetColor.swift in Sources */,
 				5F98BD4B27F187220027DE0E /* DevicePowerModel.swift in Sources */,
+				5F98BD5827F18E820027DE0E /* MediumView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
