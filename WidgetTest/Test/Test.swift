@@ -51,7 +51,7 @@ struct TestEntryView : View {
     @ViewBuilder
     var body: some View {
         switch family {
-        case .systemSmall: SmallView()
+        case .systemSmall: SmallView(model: .live)
         case .systemMedium: MediumView()
         case .systemLarge: LargeView()
         default: Text("No more to show")
@@ -67,7 +67,7 @@ struct Test: Widget {
         IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
             TestEntryView(entry: entry)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color.blue)
+                .background(Color.white)
                 
         }
         .configurationDisplayName("My Widget")
