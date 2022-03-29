@@ -27,8 +27,8 @@ struct LargeView: View {
                     .padding(.leading, 10)
                 
                 PartyBoxPowerInfoView.init(name: model.name, powerValue: 50)
-
-                    
+                
+                
             }
             
             

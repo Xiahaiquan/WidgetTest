@@ -20,7 +20,7 @@ struct SmallView: View {
             VStack.init(alignment: .leading, spacing: 8, content: {
                 
                 
-                DeviceIconView(icons: model.icons)
+                DeviceIconView(icons:  model.icons)
                 
                 Text(model.name)
                     .font(.footnote)
@@ -37,28 +37,27 @@ struct SmallView: View {
 
 struct DeviceIconView: View {
     
-    var icons: [Image]
+    var icons: [String]
     
     var body: some View {
         HStack.init(alignment: VerticalAlignment.center, spacing: 2) {
             
             if let image = icons.first {
                 
-                image
+                Image(image)
                     .resizable()
                     .frame(width: 43, height: 53, alignment: .leading)
                     .rotationEffect(.degrees(-12))
             }
             
             if let image = icons.last {
-                image
+                Image(image)
                     .resizable()
                     .frame(width: 43, height: 53, alignment: .leading)
                     .rotationEffect(.degrees(2.9))
             }
             
         }
-        //        .border(.yellow, width: 1)
         
     }
 }
@@ -84,7 +83,7 @@ struct DevicePowerView: View {
             }
             
         })
-        //            .padding()
+        
         
         HStack.init(alignment: .center, spacing: 2, content: {
             

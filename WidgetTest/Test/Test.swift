@@ -10,19 +10,25 @@ import SwiftUI
 import Intents
 
 struct Provider: IntentTimelineProvider {
+    typealias Entry = SimpleEntry
+    
+    typealias Intent = SelectEmojiIntent
+    
+    
+    
     func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date(), configuration: ConfigurationIntent(), mediumViewData: .live, largeViewData: .partyBox)
+        SimpleEntry(date: Date(), configuration: SelectEmojiIntent(), mediumViewData: .live, largeViewData: .partyBox)
     }
-
-    func getSnapshot(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (SimpleEntry) -> ()) {
+    
+    func getSnapshot(for configuration: SelectEmojiIntent, in context: Context, completion: @escaping (SimpleEntry) -> ()) {
         let entry = SimpleEntry(date: Date(), configuration: configuration, mediumViewData: .live, largeViewData: .partyBox)
         completion(entry)
     }
     //TimelineProviderContext.displaySize
-
-    func getTimeline(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
+    
+    func getTimeline(for configuration: SelectEmojiIntent, in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
         var entries: [SimpleEntry] = []
-
+        
         // Generate a timeline consisting of five entries an hour apart, starting from the current date.
         let currentDate = Date()
         for hourOffset in 0 ..< 5 {
@@ -30,7 +36,7 @@ struct Provider: IntentTimelineProvider {
             let entry = SimpleEntry(date: entryDate, configuration: configuration, mediumViewData: .live, largeViewData: .partyBox)
             entries.append(entry)
         }
-
+        
         let timeline = Timeline(entries: entries, policy: .atEnd)
         completion(timeline)
     }
@@ -38,7 +44,7 @@ struct Provider: IntentTimelineProvider {
 
 struct SimpleEntry: TimelineEntry {
     let date: Date
-    let configuration: ConfigurationIntent
+    let configuration: SelectEmojiIntent
     
     let mediumViewData: DeviceInfoModel?
     let largeViewData: DeviceLargeModel?
@@ -50,13 +56,12 @@ struct TestEntryView : View {
     
     var entry: Provider.Entry
     
-    
     @ViewBuilder
     var body: some View {
         switch family {
         case .systemSmall:
             SmallView(model: .live)
-                
+            
         case .systemMedium:
             MediumView(model: .live)
         case .systemLarge:
@@ -69,13 +74,13 @@ struct TestEntryView : View {
 @main
 struct Test: Widget {
     let kind: String = "Test"
-
+    
     var body: some WidgetConfiguration {
-        IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
+        IntentConfiguration(kind: kind, intent: SelectEmojiIntent.self, provider: Provider()) { entry in
             TestEntryView(entry: entry)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.white)
-                
+            
         }
         .configurationDisplayName("My Widget")
         .description("This is an example widget.")
@@ -86,7 +91,7 @@ struct Test: Widget {
 
 struct Test_Previews: PreviewProvider {
     static var previews: some View {
-        TestEntryView(entry: SimpleEntry(date: Date(), configuration: ConfigurationIntent(), mediumViewData: .live, largeViewData: .partyBox))
+        TestEntryView(entry: SimpleEntry(date: Date(), configuration: SelectEmojiIntent(), mediumViewData: .live, largeViewData: .partyBox))
             .previewContext(WidgetPreviewContext(family: .systemSmall))
     }
 }

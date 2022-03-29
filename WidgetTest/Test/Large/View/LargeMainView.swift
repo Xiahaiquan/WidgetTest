@@ -39,7 +39,6 @@ struct LargeMainView: View {
                     
                 })
             }
-//            .border(.black, width: 1)
             
             Spacer()
             HStack{
@@ -64,11 +63,6 @@ struct LargeMainView: View {
                     
                 })
             }
-//            .border(.black, width: 1)
-            
-            
-           
-            
             
         })
             .padding()

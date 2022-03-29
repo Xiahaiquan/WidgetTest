@@ -22,7 +22,7 @@ enum PowerEnum {
             return ""
         }
     }
-
+    
 }
 
 struct DevicePowerModel {
@@ -40,9 +40,14 @@ struct DevicePowerModel {
 
 
 struct DeviceModel {
-    let icons: [Image]
+    let icons: [String]
     let name: String
     let powers: [DevicePowerModel]
     
-    static let live = DeviceModel.init(icons: [Image("LIVE_PRO2_BLACK_LEFT"), Image("LIVE_PRO2_BLACK_RIGHT")], name: "JBL LIVE PRO 2 TWS", powers: [.left, .right, .chargeBox])
+    static let live = DeviceModel.init(icons: ["LIVE_PRO2_BLACK_LEFT", "LIVE_PRO2_BLACK_RIGHT"],
+                                       name: "JBL LIVE PRO 2 TWS",
+                                       powers: [.left, .right, .chargeBox])
+    
+    
+    static let availableCharacters = [live]
 }
