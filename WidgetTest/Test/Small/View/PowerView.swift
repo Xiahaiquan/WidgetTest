@@ -55,8 +55,6 @@ struct PowerLevelShape: View {
                 .fill(Color.mediumPowerColor)
                 .frame(width: boxWidth, height: frame.height, alignment: .leading)
             
-            
-            
         }
     }
 }

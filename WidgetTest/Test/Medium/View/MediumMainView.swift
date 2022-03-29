@@ -35,7 +35,7 @@ struct IconView_Previews: PreviewProvider {
 // -- MARK: IconView
 struct LinkBtnView: View {
     
-    var actionName: (image: String, text: String)
+    var actionName: Action
     
     var body: some View {
         VStack.init(alignment: .center, spacing: 8) {
@@ -52,7 +52,7 @@ struct LinkBtnView: View {
 
 struct LinkBtnView_Previews: PreviewProvider {
     static var previews: some View {
-        LinkBtnView(actionName: (image: "Group 13989", text: "Noise Cancelling"))
+        LinkBtnView(actionName: Action(image: "Group 13989", text: "Noise Cancelling", url: ""))
     }
 }
 

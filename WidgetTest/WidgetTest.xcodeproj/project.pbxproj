@@ -20,6 +20,8 @@
 		5F35A28D27EDB6D600598CB9 /* TestExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5F35A27C27EDB6D500598CB9 /* TestExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5F35A29A27EDB71800598CB9 /* LargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29327EDB71800598CB9 /* LargeView.swift */; };
 		5F35A29B27EDB71800598CB9 /* LargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29327EDB71800598CB9 /* LargeView.swift */; };
+		5F88329B27F1B08A00795CBA /* LargeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F88329A27F1B08A00795CBA /* LargeMainView.swift */; };
+		5F88329C27F1B08A00795CBA /* LargeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F88329A27F1B08A00795CBA /* LargeMainView.swift */; };
 		5F98BD3C27F155A30027DE0E /* WidgetColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD3B27F155A30027DE0E /* WidgetColor.swift */; };
 		5F98BD3D27F155A30027DE0E /* WidgetColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD3B27F155A30027DE0E /* WidgetColor.swift */; };
 		5F98BD4627F187220027DE0E /* SmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD4227F187220027DE0E /* SmallView.swift */; };
@@ -35,6 +37,10 @@
 		5F98BD5A27F18E820027DE0E /* MediumMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD5527F18E820027DE0E /* MediumMainView.swift */; };
 		5F98BD5C27F18EAF0027DE0E /* DeviceInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD5B27F18EAF0027DE0E /* DeviceInfoModel.swift */; };
 		5F98BD5D27F18EAF0027DE0E /* DeviceInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD5B27F18EAF0027DE0E /* DeviceInfoModel.swift */; };
+		5F98BD6127F19F040027DE0E /* DeviceLargeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD6027F19F040027DE0E /* DeviceLargeModel.swift */; };
+		5F98BD6227F19F040027DE0E /* DeviceLargeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD6027F19F040027DE0E /* DeviceLargeModel.swift */; };
+		5F98BD6427F1A0A60027DE0E /* PartyBoxPowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD6327F1A0A60027DE0E /* PartyBoxPowerView.swift */; };
+		5F98BD6527F1A0A60027DE0E /* PartyBoxPowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F98BD6327F1A0A60027DE0E /* PartyBoxPowerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +81,7 @@
 		5F35A28627EDB6D600598CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F35A28827EDB6D600598CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F35A29327EDB71800598CB9 /* LargeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeView.swift; sourceTree = "<group>"; };
+		5F88329A27F1B08A00795CBA /* LargeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeMainView.swift; sourceTree = "<group>"; };
 		5F98BD3B27F155A30027DE0E /* WidgetColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetColor.swift; sourceTree = "<group>"; };
 		5F98BD4227F187220027DE0E /* SmallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallView.swift; sourceTree = "<group>"; };
 		5F98BD4327F187220027DE0E /* PowerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
@@ -82,6 +89,8 @@
 		5F98BD5427F18E820027DE0E /* MediumView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumView.swift; sourceTree = "<group>"; };
 		5F98BD5527F18E820027DE0E /* MediumMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumMainView.swift; sourceTree = "<group>"; };
 		5F98BD5B27F18EAF0027DE0E /* DeviceInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoModel.swift; sourceTree = "<group>"; };
+		5F98BD6027F19F040027DE0E /* DeviceLargeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceLargeModel.swift; sourceTree = "<group>"; };
+		5F98BD6327F1A0A60027DE0E /* PartyBoxPowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyBoxPowerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +179,8 @@
 			isa = PBXGroup;
 			children = (
 				5F35A29327EDB71800598CB9 /* LargeView.swift */,
+				5F98BD5F27F19EAF0027DE0E /* Data */,
+				5F98BD5E27F19EAF0027DE0E /* View */,
 			);
 			path = Large;
 			sourceTree = "<group>";
@@ -187,6 +198,7 @@
 		5F35A29827EDB71800598CB9 /* Medium */ = {
 			isa = PBXGroup;
 			children = (
+				5F98BD5427F18E820027DE0E /* MediumView.swift */,
 				5F98BD5627F18E820027DE0E /* Data */,
 				5F98BD5327F18E820027DE0E /* View */,
 			);
@@ -212,7 +224,6 @@
 		5F98BD5327F18E820027DE0E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5F98BD5427F18E820027DE0E /* MediumView.swift */,
 				5F98BD5527F18E820027DE0E /* MediumMainView.swift */,
 			);
 			path = View;
@@ -222,6 +233,23 @@
 			isa = PBXGroup;
 			children = (
 				5F98BD5B27F18EAF0027DE0E /* DeviceInfoModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5F98BD5E27F19EAF0027DE0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F98BD6327F1A0A60027DE0E /* PartyBoxPowerView.swift */,
+				5F88329A27F1B08A00795CBA /* LargeMainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F98BD5F27F19EAF0027DE0E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5F98BD6027F19F040027DE0E /* DeviceLargeModel.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -328,7 +356,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F98BD6427F1A0A60027DE0E /* PartyBoxPowerView.swift in Sources */,
+				5F88329B27F1B08A00795CBA /* LargeMainView.swift in Sources */,
 				5F35A29A27EDB71800598CB9 /* LargeView.swift in Sources */,
+				5F98BD6127F19F040027DE0E /* DeviceLargeModel.swift in Sources */,
 				5F98BD5727F18E820027DE0E /* MediumView.swift in Sources */,
 				5F35A26D27EDB65400598CB9 /* ContentView.swift in Sources */,
 				5F98BD4827F187220027DE0E /* PowerView.swift in Sources */,
@@ -352,9 +383,12 @@
 				5F35A29B27EDB71800598CB9 /* LargeView.swift in Sources */,
 				5F98BD4927F187220027DE0E /* PowerView.swift in Sources */,
 				5F98BD5D27F18EAF0027DE0E /* DeviceInfoModel.swift in Sources */,
+				5F88329C27F1B08A00795CBA /* LargeMainView.swift in Sources */,
 				5F98BD4727F187220027DE0E /* SmallView.swift in Sources */,
+				5F98BD6527F1A0A60027DE0E /* PartyBoxPowerView.swift in Sources */,
 				5F98BD3D27F155A30027DE0E /* WidgetColor.swift in Sources */,
 				5F98BD4B27F187220027DE0E /* DevicePowerModel.swift in Sources */,
+				5F98BD6227F19F040027DE0E /* DeviceLargeModel.swift in Sources */,
 				5F98BD5827F18E820027DE0E /* MediumView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,23 +20,23 @@ struct MediumView: View {
             IconView(iconName: model.icon)
             
             HStack{
-                Link(destination: URL(string: "game:///link1")!, label: {
-                    LinkBtnView(actionName: model.actionName[0])
+                Link(destination: URL(string: model.actions[0].url)!, label: {
+                    LinkBtnView(actionName: model.actions[0])
                 })
                 Spacer()
-                Link(destination: URL(string: "game:///link2")!, label: {
-                    LinkBtnView(actionName: model.actionName[1])
+                Link(destination: URL(string: model.actions[0].url)!, label: {
+                    LinkBtnView(actionName: model.actions[1])
                 })
                 Spacer()
-                Link(destination: URL(string: "game:///link3")!, label: {
-                    LinkBtnView(actionName: model.actionName[2])
+                Link(destination: URL(string: model.actions[0].url)!, label: {
+                    LinkBtnView(actionName: model.actions[2])
                     
                     
                 })
                 
                 Spacer()
-                Link(destination: URL(string: "game:///link4")!, label: {
-                    LinkBtnView(actionName: model.actionName[3])
+                Link(destination: URL(string: model.actions[0].url)!, label: {
+                    LinkBtnView(actionName: model.actions[3])
                     
                     
                 })
