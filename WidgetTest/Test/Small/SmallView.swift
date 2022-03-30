@@ -107,7 +107,7 @@ struct DevicePowerView: View {
 
 struct SmallView_Previews: PreviewProvider {
     static var previews: some View {
-        SmallView(model: .live)
+        SmallView(model: .live0)
             .previewContext(WidgetPreviewContext(family: .systemSmall))
     }
 }

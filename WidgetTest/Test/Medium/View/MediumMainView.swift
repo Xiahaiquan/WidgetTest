@@ -83,6 +83,6 @@ struct MediumPowerView: View {
 
 struct BottomView_Previews: PreviewProvider {
     static var previews: some View {
-        MediumPowerView(model: .live)
+        MediumPowerView(model: .live0)
     }
 }

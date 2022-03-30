@@ -35,7 +35,7 @@
 					<key>INIntentParameterConfigurable</key>
 					<true/>
 					<key>INIntentParameterDisplayName</key>
-					<string>Emoji</string>
+					<string>Choose device</string>
 					<key>INIntentParameterDisplayNameID</key>
 					<string>g5e7VZ</string>
 					<key>INIntentParameterDisplayPriority</key>

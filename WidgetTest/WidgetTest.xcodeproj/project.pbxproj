@@ -20,7 +20,6 @@
 		5F35A28D27EDB6D600598CB9 /* TestExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5F35A27C27EDB6D500598CB9 /* TestExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5F35A29A27EDB71800598CB9 /* LargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29327EDB71800598CB9 /* LargeView.swift */; };
 		5F35A29B27EDB71800598CB9 /* LargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A29327EDB71800598CB9 /* LargeView.swift */; };
-		5F39450E27F2DEBE006EEBD0 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F39450D27F2DEBE006EEBD0 /* DataSource.swift */; };
 		5F39450F27F2E655006EEBD0 /* Test.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5F35A28527EDB6D500598CB9 /* Test.intentdefinition */; };
 		5F39451227F2EB01006EEBD0 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3A443627F2DCA900E406F2 /* IntentHandler.swift */; };
 		5F39451327F2EB02006EEBD0 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3A443627F2DCA900E406F2 /* IntentHandler.swift */; };
@@ -97,7 +96,6 @@
 		5F35A28627EDB6D600598CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F35A28827EDB6D600598CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F35A29327EDB71800598CB9 /* LargeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeView.swift; sourceTree = "<group>"; };
-		5F39450D27F2DEBE006EEBD0 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		5F3A43FD27F2B14F00E406F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5F3A440327F2B42100E406F2 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
 		5F3A440E27F2B42100E406F2 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
@@ -245,7 +243,6 @@
 			isa = PBXGroup;
 			children = (
 				5F3A443627F2DCA900E406F2 /* IntentHandler.swift */,
-				5F39450D27F2DEBE006EEBD0 /* DataSource.swift */,
 				5F3A443827F2DCA900E406F2 /* Info.plist */,
 			);
 			path = TestHandle;
@@ -474,7 +471,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F39450E27F2DEBE006EEBD0 /* DataSource.swift in Sources */,
 				5F3A443727F2DCA900E406F2 /* IntentHandler.swift in Sources */,
 				5F39450F27F2E655006EEBD0 /* Test.intentdefinition in Sources */,
 				5F39451427F2ED2B006EEBD0 /* DevicePowerModel.swift in Sources */,

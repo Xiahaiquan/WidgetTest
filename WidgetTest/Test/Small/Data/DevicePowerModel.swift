@@ -44,10 +44,30 @@ struct DeviceModel {
     let name: String
     let powers: [DevicePowerModel]
     
-    static let live = DeviceModel.init(icons: ["LIVE_PRO2_BLACK_LEFT", "LIVE_PRO2_BLACK_RIGHT"],
-                                       name: "JBL LIVE PRO 2 TWS",
-                                       powers: [.left, .right, .chargeBox])
     
     
-    static let availableCharacters = [live]
+    static let live0 = DeviceModel.init(icons: ["LIVE_PRO2_BLACK_LEFT", "LIVE_PRO2_BLACK_RIGHT"],
+                                        name: "JBL LIVE660NC",
+                                        powers: [.left, .right, .chargeBox])
+    static let live1 = DeviceModel.init(icons: ["LIVE_PRO2_BLACK_LEFT", "LIVE_PRO2_BLACK_RIGHT"],
+                                        name: "JBL QUANTUM TWS",
+                                        powers: [.left, .right, .chargeBox])
+    static let live2 = DeviceModel.init(icons: ["LIVE_PRO2_BLACK_LEFT", "LIVE_PRO2_BLACK_RIGHT"],
+                                        name: "JBL LIVE PRO 2 TWS",
+                                        powers: [.left, .right, .chargeBox])
+    static let live3 = DeviceModel.init(icons: ["LIVE_PRO2_BLACK_LEFT", "LIVE_PRO2_BLACK_RIGHT"],
+                                        name: "JBL TourOne",
+                                        powers: [.left, .right, .chargeBox])
+    static let live4 = DeviceModel.init(icons: ["LIVE_PRO2_BLACK_LEFT", "LIVE_PRO2_BLACK_RIGHT"],
+                                        name: "JBL WAVE BEAM",
+                                        powers: [.left, .right, .chargeBox])
+    
+    
+    static let availableCharacters = [live0, live1, live2, live3, live4]
+}
+
+extension DeviceModel: Identifiable {
+    public var id: String {
+        name
+    }
 }

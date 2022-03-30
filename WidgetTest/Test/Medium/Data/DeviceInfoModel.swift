@@ -16,6 +16,6 @@ struct DeviceInfoModel {
                                                      Action(image: "Group 13991", text: "Noise Cancelling", url: "medium:///link1"),
                                                      Action(image: "Group 13990", text: "Ambient Aware", url: "medium:///link2"),
                                                      Action(image: "Group 13989", text: "TalkTrhu", url: "medium:///link3")],
-                                           icon: (image: "My JBL Headphones", text: "JBL"), deviceModel: DeviceModel.live)
+                                           icon: (image: "My JBL Headphones", text: "JBL"), deviceModel: DeviceModel.live0)
 }
 
