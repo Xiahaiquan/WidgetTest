@@ -26,12 +26,12 @@ extension IntentHandler: SelectEmojiIntentHandling {
     
     func provideEmojiOptionsCollection(
         for intent: SelectEmojiIntent,
-        with completion: @escaping (INObjectCollection<EmojiINO>?, Error?) -> Void
+        with completion: @escaping (INObjectCollection<Device>?, Error?) -> Void
     ) {
-        var emojiItems = [EmojiINO]()
+        var emojiItems = [Device]()
         DeviceModel.availableCharacters.forEach { emojiDetails in
             
-            let emojiIntentObject = EmojiINO.init(identifier: emojiDetails.id, display: emojiDetails.name)
+            let emojiIntentObject = Device.init(identifier: emojiDetails.id, display: emojiDetails.name)
             
             emojiItems.append(emojiIntentObject)
         }

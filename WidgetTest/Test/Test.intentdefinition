@@ -24,7 +24,7 @@
 			<key>INIntentIneligibleForSuggestions</key>
 			<true/>
 			<key>INIntentLastParameterTag</key>
-			<integer>6</integer>
+			<integer>7</integer>
 			<key>INIntentName</key>
 			<string>SelectEmoji</string>
 			<key>INIntentParameters</key>
@@ -41,7 +41,7 @@
 					<key>INIntentParameterName</key>
 					<string>emoji</string>
 					<key>INIntentParameterObjectType</key>
-					<string>EmojiINO</string>
+					<string>Device</string>
 					<key>INIntentParameterObjectTypeNamespace</key>
 					<string>88xZPY</string>
 					<key>INIntentParameterPromptDialogs</key>
@@ -99,13 +99,13 @@
 	<array>
 		<dict>
 			<key>INTypeDisplayName</key>
-			<string>Emoji INO</string>
+			<string>Device</string>
 			<key>INTypeDisplayNameID</key>
 			<string>tbwiqi</string>
 			<key>INTypeLastPropertyTag</key>
 			<integer>100</integer>
 			<key>INTypeName</key>
-			<string>EmojiINO</string>
+			<string>Device</string>
 			<key>INTypeProperties</key>
 			<array>
 				<dict>
