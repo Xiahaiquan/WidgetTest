@@ -21,8 +21,6 @@
 			<string>information</string>
 			<key>INIntentDescriptionID</key>
 			<string>tVvJ9c</string>
-			<key>INIntentEligibleForWidgets</key>
-			<true/>
 			<key>INIntentIneligibleForSuggestions</key>
 			<true/>
 			<key>INIntentLastParameterTag</key>
@@ -59,26 +57,6 @@
 							<true/>
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Primary</string>
-						</dict>
-						<dict>
-							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
-							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>There are ${count} options matching ‘${emoji}’.</string>
-							<key>INIntentParameterPromptDialogFormatStringID</key>
-							<string>w14SPQ</string>
-							<key>INIntentParameterPromptDialogType</key>
-							<string>DisambiguationIntroduction</string>
-						</dict>
-						<dict>
-							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
-							<key>INIntentParameterPromptDialogFormatString</key>
-							<string>Just to confirm, you wanted ‘${emoji}’?</string>
-							<key>INIntentParameterPromptDialogFormatStringID</key>
-							<string>dZ5yEi</string>
-							<key>INIntentParameterPromptDialogType</key>
-							<string>Confirmation</string>
 						</dict>
 					</array>
 					<key>INIntentParameterSupportsDynamicEnumeration</key>

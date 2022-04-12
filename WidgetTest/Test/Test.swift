@@ -35,7 +35,7 @@ struct Provider: IntentTimelineProvider {
         let devieModel =  lookupDataDetails(for: configuration)
         
         // Generate a timeline consisting of five entries an hour apart, starting from the current date.
-        let currentDate = Date()
+//        let currentDate = Date()
         //        for hourOffset in 0 ..< 5 {
         //            let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
         let entry = SimpleEntry(date: Date(), configuration: configuration, smallViewData: devieModel, mediumViewData: .live, largeViewData: .partyBox)
