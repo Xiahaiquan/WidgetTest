@@ -20,6 +20,10 @@ class IntentHandler: INExtension {
 
 
 extension IntentHandler: SelectEmojiIntentHandling {
+    func handle(intent: SelectEmojiIntent, completion: @escaping (SelectEmojiIntentResponse) -> Void) {
+        
+    }
+    
     func provideEmojiOptionsCollection(
         for intent: SelectEmojiIntent,
         with completion: @escaping (INObjectCollection<EmojiINO>?, Error?) -> Void
